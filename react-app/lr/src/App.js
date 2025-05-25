@@ -1,5 +1,5 @@
-import { createContext , useState} from "react";
-import{ BrowserRouter , Route , Routes} from "react-router-dom";
+import { createContext, useState } from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import './App.css';
 
 import Footer from "./Components/Footer/footer";

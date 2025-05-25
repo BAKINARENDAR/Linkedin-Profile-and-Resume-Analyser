@@ -1,10 +1,15 @@
-import React from "react";
 import '../Interface/interface.css';
 
 const Interface =()=>{
     return(
         <>
-        interface
+        <section className="interface-section">
+            <div className="interface-container">
+                <div className="interface-content">
+                    
+                </div>
+            </div>
+        </section>
         </>
     )
 }
