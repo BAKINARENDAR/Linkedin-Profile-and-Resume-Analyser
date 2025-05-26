@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box; /* Fixed typo: border -> box-sizing */
+  font-family: "Roboto", sans-serif;
+}
+.interface-container{
+    width: 100%;
+    height: 100vh;
+}
+.interface-content2{
+   margin-top: 80px;
+}
+.block-1 {
+  display: flex;
+  
+}
+.part1 {
+  width: 40%;
+
+}
+.part2 {
+  width: 60%;
+  color: #000000;
+  margin-top: 50px;
+  font-size: 1.8rem;
+}
+.part2 span{
+    color: #f88b06;
+}
+.part2 h3{
+    margin-top: 40px;
+    font-size: 1rem;
+    line-break: 20px;
+    display: block;
+    font-weight: 400;
+   margin-right: 20px;
+   line-height: 22px;
+}
+.interface-content2 .part1{
+    text-align: center;
+    margin-left: 300px;
+    font-size: 2rem;
+    width: 800px;
+padding-bottom: 40px;
+
+   
+}
+.interface-content2 .part1 h1{
+    font-weight: 500;
+    font-size: 2.5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.interface-content2 .part1 p{
+    font-size: 1rem;
+    margin-top: 8px;
+}
+.interface-content2 .part1 span{
+    color: #f88b06;
+}
+.interface-content2 .part2{
+    display: block;
+    
+}
+.interface-content2 .part2 img{
+    width: 600px;
+    margin-left: 380px;
+    margin-top: -30px;
+}

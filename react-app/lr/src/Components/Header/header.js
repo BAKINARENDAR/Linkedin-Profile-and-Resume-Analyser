@@ -1,4 +1,5 @@
 
+import Button from '@mui/material/Button';
 import logo from "../../images/logo.jpg";
 import "../Header/header.css";
 const Header = () => {
@@ -16,9 +17,16 @@ const Header = () => {
                 </div>
              
             </div>
-            <div className="login-button">
-                
+            <div className='butto'>
+ <div className="login-button">
+                <h2><Button>Login</Button></h2>
             </div>
+            <div className="signup-button">
+               <h2><Button>Sign Up</Button></h2>
+            </div> 
+           
+            </div>
+           
           </div>
         </div>
       </section>

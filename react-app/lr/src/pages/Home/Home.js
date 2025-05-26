@@ -1,10 +1,15 @@
-import React from "react";
 import '../Home/home.css';
 
 const Home =()=>{
     return(
         <>
-        Home 
+        <section className="home-section">
+            <div className="home-container">
+                <div className="home-content">
+                   
+                </div>
+            </div>
+        </section>
         </>
     )
 }
