@@ -5,6 +5,9 @@
   box-sizing: border-box; /* Fixed typo: border -> box-sizing */
   font-family: "Roboto", sans-serif;
 }
+.interface-section{
+    padding-top: 100px;
+}
 .interface-container{
     width: 100%;
     height: 100vh;

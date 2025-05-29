@@ -4,7 +4,7 @@ import '../Signup/signup.css';
 const Signup =()=>{
     return(
         <>
-        signup
+        
         </>
     )
 }
