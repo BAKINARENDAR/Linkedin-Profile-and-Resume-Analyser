@@ -5,23 +5,21 @@
   box-sizing: border-box; /* Fixed typo: border -> box-sizing */
   font-family: "Roboto", sans-serif;
 }
-.interface-section{
-    padding-top: 100px;
+.interface-section {
+  padding-top: 100px;
 }
-.interface-container{
-    width: 100%;
-    height: 100vh;
+.interface-container {
+  width: 100%;
+  height: 100vh;
 }
-.interface-content2{
-   margin-top: 80px;
+.interface-content2 {
+  margin-top: 80px;
 }
 .block-1 {
   display: flex;
-  
 }
 .part1 {
   width: 40%;
-
 }
 .part2 {
   width: 60%;
@@ -29,45 +27,120 @@
   margin-top: 50px;
   font-size: 1.8rem;
 }
-.part2 span{
-    color: #f88b06;
+.part2 span {
+  color: #f88b06;
 }
-.part2 h3{
-    margin-top: 40px;
-    font-size: 1rem;
-    line-break: 20px;
-    display: block;
-    font-weight: 400;
-   margin-right: 20px;
-   line-height: 22px;
+.part2 h3 {
+  margin-top: 40px;
+  font-size: 1rem;
+  line-break: 20px;
+  display: block;
+  font-weight: 400;
+  margin-right: 20px;
+  line-height: 22px;
 }
-.interface-content2 .part1{
-    text-align: center;
-    margin-left: 300px;
-    font-size: 2rem;
-    width: 800px;
-padding-bottom: 40px;
+.interface-content2 .part1 {
+  text-align: center;
+  margin-left: 300px;
+  font-size: 2rem;
+  width: 800px;
+  padding-bottom: 40px;
+}
+.interface-content2 .part1 h1 {
+  font-weight: 500;
+  font-size: 2.5rem;
+  font-family: "Times New Roman", Times, serif;
+}
+.interface-content2 .part1 p {
+  font-size: 1rem;
+  margin-top: 8px;
+}
+.interface-content2 .part1 span {
+  color: #f88b06;
+}
+.interface-content2 .part2 {
+  display: block;
+}
+.interface-content2 .part2 img {
+  width: 600px;
+  margin-left: 380px;
+  margin-top: -30px;
+}
 
-   
+.interface-content3 {
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding: 10px;
 }
-.interface-content2 .part1 h1{
+.block-3 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.printer-image img {
+  width: 400px;
+  height: 300px;
+}
+.interface-content4 {
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding: 10px;
+  padding-bottom: 20px;
+}
+.block-4 {
+  text-align: center;
+  padding-top: 20px;
+}
+.part-single span {
+  color: #f88b06;
+}
+.part-single p {
+  padding-top: 25px;
+  font-size: 0.7rem;
+}
+
+.interface-content5 {
+  margin-top: 30px;
+  padding-top: 30px;
+}
+.freq-questions h2 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  font-weight: 50;
+  font-family:'Times New Roman', Times, serif;
+}
+.freq-questions {
+  padding: 2em;
+
+  border-radius: 10px;
+  margin-top: 2em;
+}
+
+.faq-item {
+  border-bottom: 1px solid #ddd;
+  padding: 1em 0;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  
+  font-size: 1.1rem;
+}
+.faq-question h4{
     font-weight: 500;
-    font-size: 2.5rem;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.interface-content2 .part1 p{
-    font-size: 1rem;
-    margin-top: 8px;
+
+.faq-answer {
+  margin-top: 0.5em;
+  padding-left: 1em;
+  line-height: 1.5;
+  font-size: 0.8rem;
+  padding: 5px;
 }
-.interface-content2 .part1 span{
-    color: #f88b06;
-}
-.interface-content2 .part2{
-    display: block;
-    
-}
-.interface-content2 .part2 img{
-    width: 600px;
-    margin-left: 380px;
-    margin-top: -30px;
-}
+

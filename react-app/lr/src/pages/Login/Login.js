@@ -1,7 +1,6 @@
-import React from "react";
-import '../Login/login.css';
-import { FaUser } from "react-icons/fa6";
 import { FaLock } from "react-icons/fa";
+import { FaUser } from "react-icons/fa6";
+import '../Login/login.css';
 
 const Login =()=>{
     return(
@@ -21,7 +20,7 @@ const Login =()=>{
                      <FaLock />
                    </div>
                    <div className="forgot-link">
-                     <a href="#">Forgot password</a>
+                     <a href="/">Forgot password</a>
                    </div>
                    <button type="submit" className="btn">Login</button>
                    
