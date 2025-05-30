@@ -16,7 +16,7 @@ const Interface = () => {
     {
       question: "How does the resume scoring system work?",
       answer:
-        "We use AI models like Google Gemini to compare your resume with job descriptions and assign a relevance score based on skills, experience, and keywords.",
+        "We use AI models like ChatGPT to compare your resume with job descriptions and assign a relevance score based on skills, experience, and keywords.",
     },
     {
       question:
@@ -69,7 +69,7 @@ const Interface = () => {
                 experience, highlights missing skills, suggests
                 recruiter-focused keywords, and scores your resume’s relevance
                 to job descriptions—all powered by{" "}
-                <strong>Google Gemini AI</strong>.
+                <strong>ChatGPT</strong>.
               </h3>
             </div>
           </div>
