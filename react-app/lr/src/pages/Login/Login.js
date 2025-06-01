@@ -1,8 +1,15 @@
+import { useContext, useEffect } from "react";
 import { FaLock } from "react-icons/fa";
 import { FaUser } from "react-icons/fa6";
+import { MyContext } from "../../App";
 import '../Login/login.css';
 
 const Login =()=>{
+  const {setshowheaderfooter}=useContext(MyContext);
+    useEffect(()=>{
+        setshowheaderfooter(false);
+        return ()=>setshowheaderfooter(true);
+    });
     return(
         <>
         <div className="container">

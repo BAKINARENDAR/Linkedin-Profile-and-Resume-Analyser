@@ -1,4 +1,5 @@
 import { useState } from "react";
+
 import interface1 from "../../images/interface-1.png";
 import interface3 from "../../images/interface-3.png";
 import resumeprinter from "../../images/resume-printer.gif";
@@ -16,7 +17,7 @@ const Interface = () => {
     {
       question: "How does the resume scoring system work?",
       answer:
-        "We use AI models like ChatGPT to compare your resume with job descriptions and assign a relevance score based on skills, experience, and keywords.",
+        "We use AI models like Google Gemini to compare your resume with job descriptions and assign a relevance score based on skills, experience, and keywords.",
     },
     {
       question:
@@ -69,11 +70,12 @@ const Interface = () => {
                 experience, highlights missing skills, suggests
                 recruiter-focused keywords, and scores your resume’s relevance
                 to job descriptions—all powered by{" "}
-                <strong>ChatGPT</strong>.
+                <strong>ChatGpt</strong>.
               </h3>
             </div>
           </div>
         </div>
+        <br/>
 
         <div className="interface-content2">
           <div className="block-2">
@@ -88,7 +90,7 @@ const Interface = () => {
             </div>
           </div>
         </div>
-
+  <br/>
         <div className="interface-content3">
           <div className="block-3">
             <div className="part1">
@@ -111,7 +113,7 @@ const Interface = () => {
             </div>
           </div>
         </div>
-
+  <br/>
         <div className="interface-content4">
           <div className="block-4">
             <div className="part-single">
@@ -124,10 +126,11 @@ const Interface = () => {
             </div>
           </div>
         </div>
-
+  <br/>
         <div className="interface-content5">
           <div className="block-5">
             <div className="freq-questions">
+              
               <h2>Frequently Asked Questions</h2>
               {faqData.map((item, index) => (
                 <div
@@ -149,7 +152,9 @@ const Interface = () => {
             </div>
           </div>
         </div>
+          <br/>
       </div>
+
     </section>
   );
 };
