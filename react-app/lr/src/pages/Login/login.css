@@ -5,29 +5,131 @@
   box-sizing: border-box; 
   font-family: "Roboto", sans-serif;
 }
+
+
 body {
-    min-height: 100vh;
+  background-color: #f7f7f7;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.login-logo{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
+    justify-content: space-evenly;
+    margin-right: 60px;
+    margin-bottom: 10px;
+}
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.container {
-    position: relative;
-    width: 550px;
-    height: 350px;
-    background-color: #fff;
-    border-radius: 30px;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
- 
-}
-.form-box{
-    position: absolute;
-    right: 0;
-    width: 50%;
-    height: 100%;
-    background-color: aqua;
+.login-content {
+  background-color: #fff;
+padding-left: 25px;
+padding-right: 25px;
+padding-bottom: 25px;
+padding-top: 20px;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  text-align: center;
 }
 
+.login-content h1 {
+  font-size: 26px;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+form label {
+  font-size: 14px;
+  color: #555;
+  text-align: left;
+}
+
+form input {
+  padding: 12px 16px;
+  font-size: 16px;
+  border-radius: 25px;
+  border: 1.5px solid #ccc;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+form input:focus {
+  border-color: #5555ff;
+}
+
+.primary-btn {
+  padding: 12px 20px;
+  border: none;
+  background-color: #ffa636;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.primary-btn:hover {
+  background-color: #222;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0;
+  color: #999;
+  font-size: 14px;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #ddd;
+  margin: 0 10px;
+}
+
+.social-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.social-btn {
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  font-size: 14px;
+  background-color: white;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.2s ease;
+}
+
+.social-btn img{
+    width: 20px;
+    height: 20px;
+  margin-bottom: -3px;
+}
+.social-btn span{
+    margin-left: 15px;
  
+}
+.social-btn:hover {
+  background-color: #f2f2f2;
+}
